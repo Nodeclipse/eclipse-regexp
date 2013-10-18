@@ -70,12 +70,9 @@ public class ResultsSection {
 				createText("Matches:", boolLabel(result.mathes), resultPanel);
 				createText("Looking At:", boolLabel(result.lookingAt),
 						resultPanel);
-				createText("Find:", boolLabel(result.find), resultPanel);
-				if (result.replacement != null && !result.replacement.isEmpty()) {
-					createText("Replace First:", result.replaceFirst,
-							resultPanel);
-					createText("Replace All:", result.replaceAll, resultPanel);
-				}
+				createText("Found:", boolLabel(result.find), resultPanel);
+				createText("Replace First:", result.replaceFirst, resultPanel);
+				createText("Replace All:", result.replaceAll, resultPanel);
 				createText("Groups:", groupsLabel(result), resultPanel);
 			}
 			section.setExpanded(true);
