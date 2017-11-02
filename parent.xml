@@ -14,14 +14,14 @@
 
 <repositories>
     <repository>
-      <id>helios</id>
+      <id>luna</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/helios/</url>
+      <url>http://download.eclipse.org/releases/luna</url>
     </repository>
   </repositories>
 
   <properties>
-    <tycho-version>0.18.1</tycho-version>
+    <tycho-version>1.0.0</tycho-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
